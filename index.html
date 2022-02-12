@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--- Espaço para o título do site --->
+  <title>Decodificador de texto V1</title>
+  <!--- Controle visual --->
+  <link rel="stylesheet" href="style.css">
+</head>
+<!--- Início da página --->
+<body>
+  <header>
+    <h1 class="titulo">Decodificador duas vias</h1>
+  </header>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <h2 id="">Prepare sua mensagem:</h2>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+        <input class="btn" type="submit" value="criptografar!" id="btn-cripto">
+        <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <h2 id="">Mensagem criptografada:</h2>
+      <input class="text-input" type="text" id="msg" placeholder="Seu texto codificado aparecerá aqui">
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+      <input class="btn" type="submit" value="limpar" id="btn-limpa">
+    </section>
+  </main>
+  <div class="footer">
+    Alura Challenge 1 - Decodificador de texto - Por Cristian Castro
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
